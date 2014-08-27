@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<?asciidoc-toc?>
+<?asciidoc-numbered?>
+
+<book lang="en">
+<bookinfo>
+    <date>2014-08-15</date>
+</bookinfo>
+<simpara># Introduction</simpara>
+<simpara>Red Hats latest version of their Lifecycle Management tool, Red Hat Satellite 6, is a big change from earlier versions</simpara>
+<simpara>Version 5 is based on the upstream, open source project called [Spacewalk](<ulink url="http://spacewalk.redhat.com/">http://spacewalk.redhat.com/</ulink>) where as the latest version is a combination of two other open source projects - [Katello](<ulink url="http://www.katello.org/">http://www.katello.org/</ulink>) &amp; [Foreman](<ulink url="http://theforeman.org/">http://theforeman.org/</ulink>).</simpara>
+<simpara>Foreman itself is also a cobination of open source code written by themselves and and open source project called Puppet (by Puppet Labs). While Katello is also a combination of [Candlepin](<ulink url="http://www.candlepinproject.org/">http://www.candlepinproject.org/</ulink>) and [Pulp](<ulink url="http://www.pulpproject.org/">http://www.pulpproject.org/</ulink>)</simpara>
+<simpara>As such, while the latest version has the potential to do much more and scale far beyond earlier versions, with this comes a whole lot of new learning</simpara>
+<simpara>This book aims to get you up and running with Satellite 6 in the quickest possible time, so that you can start experiencing the benefits it brings as soon as possible</simpara>
+<simpara># You</simpara>
+<simpara>You are expected to be someone who is familiar with administering Linux. You will hopefully have some experience of installing/provisioning and if you had some fundimental knowledge of Puppet, then that would certainly help</simpara>
+</book>
