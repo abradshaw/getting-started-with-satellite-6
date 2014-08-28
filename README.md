@@ -1,6 +1,6 @@
 # Getting Started with Satellite 6
 
-## Introduction
+## Introduction1
 
 Red Hats latest version of their Lifecycle Management tool, Red Hat Satellite 6, is a big change from earlier versions
 
