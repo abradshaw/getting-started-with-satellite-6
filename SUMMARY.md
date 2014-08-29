@@ -24,5 +24,5 @@
    * [Adding 3rd Party RPM Repositories](beyond_basics/adding_other_repositories.md)
    * [Adding Puppet Repositories](beyond_basics/adding_puppet_repositories.md)
    * [Adding Existing Hosts to Satellite](beyond_basics/adding_existing_hosts_to_satellite.md)
-   * [Backups](beyond_basics/backups)
+   * [Backups](beyond_basics/backups.md)
 
