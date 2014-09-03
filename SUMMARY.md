@@ -7,7 +7,7 @@
    * [Attach Entitlements](installation/attach_entitlements.md)
    * [Installation](installation/installation.md)
    * [Initial Setup](installation/initial_setup.md)
-* [Initial Configuration, adding Red Repos](initial_configuration,_adding_red_repos/README.md)
+* [Initial Configuration, adding Red Hat Repos](initial_configuration,_adding_red_repos/README.md)
    * [Creating the Manifest](initial_configuration,_adding_red_repos/creating_&_importing_the_manifest.md)
    * [Prepare for Manifest Import](initial_configuration,_adding_red_repos/prepare_for_manifest_import.md)
    * [Importing the Manifest](initial_configuration,_adding_red_repos/importing_the_manifest.md)
