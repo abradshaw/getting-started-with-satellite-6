@@ -84,5 +84,5 @@ rhel-server-6-satellite-6-beta-rpms     Red Hat Satellite 6.0 Beta (for RHEL 6 S
 rhel-server-rhscl-6-rpms                Red Hat Software Collections RPMs for Red Hat Enterprise Linux 6 Server 1,267
 ```
 
-Once you have confirmed that you have access to eactly those three repositories, carry on to the next part
+Once you have confirmed that you have access to exactly those three repositories, carry on to the next part.
 
