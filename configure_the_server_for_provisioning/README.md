@@ -14,6 +14,7 @@ The following items need to be defined
 * Realm Proxy
 * TFTP Proxy
 * Provisioning Templates
+* Operating Systems
 
 NOTES:
 1. Content View First **Example@org**
