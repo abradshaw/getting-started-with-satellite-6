@@ -8,4 +8,30 @@ Start off by going to
 
 and click on **New Nost Group**
 
+Configure your **Host Group** as follows
 
+**Host Group**
+
+![](../images/host-group-main.png)
+
+**Puppet Classes** - skip for now
+
+**Network**
+
+![](../images/host-group-network.png)
+
+**Operating System**
+
+![](../images/host-group-operating-system.png)
+
+**Parameters** - skip
+
+**Locations** Verify your location is set
+
+**Organisations** verify you organisation is set
+
+**Activation Keys**
+
+![](../images/host-group-activation-keys.png)
+
+remember to hit **Submit**

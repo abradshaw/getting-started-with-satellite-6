@@ -20,9 +20,12 @@ This will open up the **Import subnets** dialog. Fill in the details that are ap
 
 Once its created, click on it again and verify that its visible to your Location / Organisation.
 
-While we are there, we will link our **Domain** to our **Subnet** from the **Domains** tab, by ticking the box and hitting **Save**
+While we are there, we will link our **Domain** to our **Subnet** from the **Domains** tab, by ticking the box
 
 ![](../images/subnet-domain.png)
 
+Next we will set our **Capsules** from the **Capsule** tab
 
+![](../images/subnet-capsules.png)
 
+Finally we hit **Submit**
