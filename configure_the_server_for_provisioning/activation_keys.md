@@ -1,14 +1,37 @@
+<style>
+div.warn {
+    background-color: #fcf2f2;
+    border-color: #dFb5b4;
+    border-left: 5px solid #dfb5b4;
+    padding: 0.5em;
+    }
+ </style>
+
 # Activation Keys
 
-Now we shall create an Activation Key. Unfortunatley the version of subscription manager shipped in RHEL6.5 and below mean that they dont fuction properly. RHEL6.6 and RHEL7 do work correctly.
+Now we shall create an Activation Key.
 
-Before doing this step, make sure your Content View has finished publishing
+<div class=warn>**NOTE** Unfortunatley the version of subscription manager shipped in RHEL6.5 and below mean that they dont fuction properly. RHEL6.6 and RHEL7 do work correctly.
+</div>
+
+Before doing this step, make sure your **Content View** has finished publishing
 
 To create an activation key - click
 
 ```Content > Activation Keys```
 
-followed by the New Activation Key button.
+followed by the **New Activation Key** button. Fill in the Name, select the **Lifecycle Environment** and **Content View** and click **Save**
+
+Once the key is created, make sure that the **Release Version** is set
+
+![Set the release version](../images/activation-key-rel-ver.png)
+
+and then go to the **Subscriptions** tab, to add your subscriptions.
+
+![Add your subscriptions](../images/activation-key-add-subs.png)
+
+Optionally, take a look on the **Product Content** to see if you you want change any of the defaults
+
 
 
 

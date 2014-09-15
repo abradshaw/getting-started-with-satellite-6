@@ -1,6 +1,12 @@
 # Partition Tables
 
-Org@location
+Next we check that our **Partition tables** are visible in our Org/Location. This should have been setup by the installer.
 
-At this point you could skip the partition table, but later on no doubt you will want to adjust it to your taste
+With your orgainisation and location selected, go to
+
+```Hosts > Partition Tables```
+
+and check that you can see **Kickstart Default** in there
+
+![Partition Tables](../images/partition-tables.png)
 
