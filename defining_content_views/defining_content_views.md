@@ -13,7 +13,7 @@ On the **Content** tab, selected the repositories that you want to add to this v
 As a bare minimum, for provisioning you will need
 
 * Red Hat Enterprise Linux 6 Server Kickstart x86_64 6.5
-* Red Hat Enterprise Linux 6 Server - RH Common Beta RPMs x86_64
+* Red Hat Enterprise Linux 6 Server - RH Common RPMs x86_64
 
 Depending in if you have changed the **Provision Template** you may also need
 
