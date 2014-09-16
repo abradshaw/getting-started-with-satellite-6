@@ -12,6 +12,4 @@ Click on the **Expand All** and **Select All** links and click on the **Syncroni
 
 ![Sync Status](../images/sync-status.png)
 
-We will leave other Repsoitory types until laterand skip to **Lifecycle Environments** next.
-
-No need to wait for those repositories to sync, we can proceed to **Lifecycle Environoments** next
+We will leave other Repsoitory types until later but there is no need to wait for those repositories to sync, we can proceed to **Lifecycle Environoments** next

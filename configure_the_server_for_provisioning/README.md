@@ -4,8 +4,8 @@ There are a number of things that need to be defined before we can add a new hos
 
 The following items need to be defined
 
-* Architecture *
-* Domain *
+* Architecture
+* Domain
 * Activation Key
 * Partition Table
 * Subnet

@@ -1,6 +1,6 @@
 # Initial Setup
 
-The **katello-installer** is used to perform the initial setup and any future changes to the existing config. Its a puppet based installation an so can be re-run without overiding the previous settings.
+The **katello-installer** is used to perform the initial setup and any future changes to the existing config. Its a puppet based installation and so can be re-run without overiding the previous settings.
 
 We will create an "all-in-one" deployment, meaning that the Satellite will have the additional roles of TFTP proxy, DHCP server and DNS server added at install time.
 
