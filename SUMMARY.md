@@ -31,9 +31,5 @@
 * [Troubleshooting](troubleshooting/README.md)
    * [Locations and Organisations](troubleshooting/locations_and_organisations.md)
    * [Capsules / Proxies](troubleshooting/capsules__proxies.md)
-* [Beyond Basics](beyond_basics/README.md)
-   * [Adding 3rd Party RPM Repositories](beyond_basics/adding_other_repositories.md)
-   * [Adding Puppet Repositories](beyond_basics/adding_puppet_repositories.md)
-   * [Adding Existing Hosts to Satellite](beyond_basics/adding_existing_hosts_to_satellite.md)
-   * [Backups](beyond_basics/backups.md)
+* [Next Steps](beyond_basics/README.md)
 

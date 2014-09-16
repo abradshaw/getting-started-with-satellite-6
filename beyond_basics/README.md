@@ -1,6 +1,6 @@
-# Beyond Basics
+# Next Steps
 
-So we have the server installed and are able to provision hosts, what next? The next topics we shall look at are
+In the next book in the series, Next Steps with Satellite 6, I will cover
 
 * Adding Other Repositories
   * Third Party RPM Repositories
