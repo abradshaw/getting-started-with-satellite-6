@@ -4,7 +4,7 @@ First we will check that out architectures are present and visible in out Org/Lo
 
 Select your organisationa and location from the menu, then go to
 
-```hosts > Architectures```
+```Hosts > Architectures```
 
 
 and confirm that you see **x86_64**

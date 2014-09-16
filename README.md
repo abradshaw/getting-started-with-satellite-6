@@ -10,9 +10,11 @@ Foreman itself is also a cobination of open source code written by themselves an
 
 As such, while the latest version has the potential to do much more and scale far beyond earlier versions, with this comes some more complexity.
 
-This book aims to get you up and running with Satellite 6 in the quickest possible time, so that you can start experiencing the benefits it brings as soon as possible
+###About the book
 
-### About You
+This book aims to get you up and running with Satellite 6 in the quickest possible time, so that you can start experiencing the benefits it brings as soon as possible. It does not aim at being an in depth reference guide
+
+### About you
 
 You are someone who is familiar with administering Linux. You will hopefully have some experience of installing/provisioning and Knowledge of Puppet would also be beneficial but not essential
 
