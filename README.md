@@ -14,5 +14,5 @@ This book aims to get you up and running with Satellite 6 in the quickest possib
 
 ### About You
 
-You are someone who is familiar with administering Linux. You will hopefully have some experience of installing/provisioning and Knowledge of Puppet would also be beneficial but not essential.
+You are someone who is familiar with administering Linux. You will hopefully have some experience of installing/provisioning and Knowledge of Puppet would also be beneficial but not essential
 
