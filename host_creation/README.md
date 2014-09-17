@@ -47,3 +47,16 @@ After the full update, the final install will happen, it will install **puppet**
 Finally, once puppet installs, it will configure puppet and inform the Satellite server that it is built
 
 ![](../images/host-stage-completed.png)
+
+Back on the Satellite Server, under ```Hosts > All Hosts```
+, you will see the new host initally has a blue A (Active) next to it. This simply means that puppet has made changes during its initial run. It will change to a green O (no changes) next time puppet runs -in about 30 mins time.
+
+![](../images/hosts-allhosts.png)
+
+Also on the Satellite Server, check the status of the **Content Hosts** ```Hosts > Content Hosts```
+
+![](../images/hosts-contenthost-1.png)
+
+Click on the **Content Host** to see more details
+
+![](../images/hosts-contenthost-2.png)
