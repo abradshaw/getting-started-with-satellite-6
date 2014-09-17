@@ -8,3 +8,4 @@ In the next book in the series, Next Steps with Satellite 6, I will cover
 * Adding Existing Hosts to Satellite
 * Backing Up the Satellite
 * Working with Capsules
+
