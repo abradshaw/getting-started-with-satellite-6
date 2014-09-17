@@ -10,7 +10,7 @@ Enter the hostname (without the domain name) of your new host. The **Organisatio
 
 ![](../images/host-newhost-1.png)
 
-Now over on the **Network** tab, check that the **Domain** is correct (leave **Realm** empty) and paste in the MAC address of the host you are provisioning. (check that IP is auto suggetsed - if now see troubleshooting section)
+Now over on the **Network** tab, check that the **Domain** is correct (leave **Realm** empty) and paste in the MAC address of the host you are provisioning. (check that IP is auto suggetsed - if not see troubleshooting section)
 
 Verify that, on the Operating System Tab, that **Architecture**, **Operating system**, **Media** and **Partition table** are set and hit **Submit**
 
