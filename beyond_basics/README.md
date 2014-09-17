@@ -13,7 +13,7 @@ The sister book this one, Getting Started with Satellite 6 Command line is aimed
 
 
 ##Other Books
-Here are details of other books Iave planned.
+Here are details of other books I have planned.
 * Getting Started with Satellite 6 (this book)
 * Getting Started with Satellite 6 Command line (sister book, partially completed)
 * Next Steps with Satellite 6 (Working on the outline)
