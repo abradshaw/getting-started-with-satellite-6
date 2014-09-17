@@ -10,4 +10,5 @@ Here is an example I created for the book, by defualt all repositories download 
 
 ![Lifecycle Environments Example](../images/lifecycle-environmnets.png)
 
+In this book we shall be using the **Library** environment for simplicity. In reality you should be promting content to other environments.
 
