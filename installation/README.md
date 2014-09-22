@@ -10,7 +10,7 @@ Before we start, you need
 
 ### Firewall configuration
 
-Its worth getting the firewall configured at this stage, so that we dont forget later. I shall assume a defualt firewall config exists. Configure the firewall any way you feel confortable, there is a quick option below.
+Its worth getting the firewall configured at this stage, so that we dont forget later. I shall assume a default firewall config exists. Configure the firewall any way you feel confortable, there is a quick option below.
 
 
 ```
@@ -21,6 +21,12 @@ iptables -I INPUT -m state --state NEW -p tcp --dport 80 -j ACCEPT
 iptables -I INPUT -m state --state NEW -p tcp --dport 8140 -j ACCEPT
 iptables -I INPUT -m state --state NEW -p tcp --dport 9090 -j ACCEPT
 iptables -I INPUT -m state --state NEW -p tcp --dport 22 -j ACCEPT
+# And for the Capsule services
+iptables -I INPUT -m state --state NEW -p tcp --dport 53 -j ACCEPT
+iptables -I INPUT -m state --state NEW -p udp --dport 53 -j ACCEPT
+iptables -I INPUT -m state --state NEW -p udp --dport 67 -j ACCEPT
+iptables -I INPUT -m state --state NEW -p udp --dport 68 -j ACCEPT
+iptables -I INPUT -m state --state NEW -p udp --dport 69 -j ACCEPT
 service iptables save
 ```
 
