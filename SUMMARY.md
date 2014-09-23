@@ -31,5 +31,6 @@
 * [Troubleshooting](troubleshooting/README.md)
    * [Locations and Organisations](troubleshooting/locations_and_organisations.md)
    * [Capsules / Proxies](troubleshooting/capsules__proxies.md)
+   * [Tasks](troubleshooting/tasks.md)
 * [Next Steps](beyond_basics/README.md)
 
