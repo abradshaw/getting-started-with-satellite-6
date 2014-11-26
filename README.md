@@ -14,7 +14,7 @@ As such, while the latest version has the potential to do much more and scale fa
 
 This book aims to get you up and running with Satellite 6 in the quickest possible time, so that you can start experiencing the benefits it brings as soon as possible. It does not aim at being an in depth reference guide.
 
-<u>We shall use defaults whereever possible</u>
+<u>We shall use defaults where-ever possible</u>
 
 ### About you
 
