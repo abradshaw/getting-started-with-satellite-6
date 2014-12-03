@@ -12,7 +12,7 @@ Before we start, you need
 
 Its worth getting the firewall configured at this stage, so that we dont forget later. I shall assume a default firewall config exists. Configure the firewall any way you feel confortable, there is a quick option below.
 
-
+On RHEL6 with iptables
 ```
 iptables -F
 iptables -I INPUT -m state --state NEW -p tcp --dport 443 -j ACCEPT
@@ -28,6 +28,30 @@ iptables -I INPUT -m state --state NEW -p udp --dport 67 -j ACCEPT
 iptables -I INPUT -m state --state NEW -p udp --dport 68 -j ACCEPT
 iptables -I INPUT -m state --state NEW -p udp --dport 69 -j ACCEPT
 service iptables save
+```
+
+On RHEL7 using firewalld
+#### EL7
+```
+firewall-cmd --add-service=https
+firewall-cmd --permanent --add-service=https
+firewall-cmd --add-port=5671/tcp
+firewall-cmd --permanent --add-port=5671/tcp
+firewall-cmd --add-service=http
+firewall-cmd --permanent --add-service=http
+firewall-cmd --add-port=8140/tcp
+firewall-cmd --permanent --add-port=8140/tcp
+firewall-cmd --add-port=9090/tcp
+firewall-cmd --permanent --add-port=9090/tcp
+firewall-cmd --add-service=ssh
+firewall-cmd --permanent --add-service=ssh
+# And for the Capsule services
+firewall-cmd --add-service=dns
+firewall-cmd --permanent --add-service=dns
+firewall-cmd --add-service=dhcp
+firewall-cmd --permanent --add-service=dhcp
+firewall-cmd --add-service=tftp
+firewall-cmd --permanent --add-service=tftp
 ```
 
 More information on what each of these ports are for can be found  in [Installation Guide Prerequisites](https://access.redhat.com/documentation/en-US/Red_Hat_Satellite/6.0/html-single/Installation_Guide/index.html#Prerequisites3)

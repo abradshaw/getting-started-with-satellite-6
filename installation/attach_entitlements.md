@@ -49,12 +49,23 @@ You will then be able to attach to that pool. However, depending on your entitle
 This may enable too many repositories. The [Satellite documentation](https://access.redhat.com/documentation/en-US/Red_Hat_Satellite/6.0/html-single/Installation_Guide/index.html#Installing_Red_Hat_Satellite) makes clear which repositories you will need, and shows how to disable the ones you dont.
 
 
+First disable all repostiories
 ```
 subscription-manager repos --disable "*"
+```
 
+Enable the minimal set only on either RHEL6
+```
 subscription-manager repos --enable rhel-6-server-rpms \
 --enable rhel-server-rhscl-6-rpms \
 --enable rhel-6-server-satellite-6.0-rpms
+```
+
+Or on RHEL7
+```
+subscription-manager repos --enable rhel-7-server-rpms \
+--enable rhel-server-rhscl-7-rpms \
+--enable rhel-7-server-satellite-6.0-rpms
 ```
 
 Once done, check that you have access to **exactly** three repos
