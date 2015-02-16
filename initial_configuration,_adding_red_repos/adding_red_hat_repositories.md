@@ -4,7 +4,7 @@ Once the manifest file has been imported, the repositories required need to be s
 
 You will need three repositories at the very least to be selected
 
-I shall focus on provisioning RHEL 6.5 hosts
+>*NOTE*: I shall focus on provisioning RHEL 6.5 hosts in my example but if you prefer to stick with the latest version, its better to use the **6Server** repository
 
 Red Hat Enterprise Linux 6 Server _Kickstart_
 
