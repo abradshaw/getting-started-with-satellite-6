@@ -61,7 +61,6 @@ firewall-cmd --zone=public --list-all
 (output omited)
 ```
 
-
 Of course this is not what we require, so lets add in all the ports we require including the ones for the additional capsules (DNS & DHCP)
 
 
