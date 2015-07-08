@@ -6,7 +6,7 @@ The idea is that your hosts or clients will exist in one of these tiers. A **Con
 
 Creating **Lifecycle Environments** is easy, simple select **Lifecycle Environments** from the **Content** Menu and click on **New Environment Path**
 
-Here is an example I created for the book, by defualt all repositories download to the built-in **Library** Environment.
+Here is an example I created for the book, by default all repositories download to the built-in **Library** Environment.
 
 ![Lifecycle Environments Example](../images/lifecycle-environmnets.png)
 
