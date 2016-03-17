@@ -12,7 +12,7 @@ As such, while the latest version has the potential to do much more and scale fa
 
 ###About the book
 
-This book aims to get you up and running with Satellite 6 in the quickest possible time, so that you can start experiencing the benefits it brings as soon as possible. It does not aim at being an in depth reference guide.
+This book aims to get you up and running with Satellite 6.0 in the quickest possible time, so that you can start experiencing the benefits it brings as soon as possible. It does not aim at being an in depth reference guide.
 
 <u>We shall use defaults where-ever possible</u>
 
@@ -20,3 +20,7 @@ This book aims to get you up and running with Satellite 6 in the quickest possib
 
 You are someone who is familiar with administering Linux. You will hopefully have some experience of installing/provisioning and Knowledge of Puppet would also be beneficial but not essential
 
+
+### Note
+
+The book covers 6.0, some things have changed under 6.1. The sister book (Getting started with Hammer) has been updated to 6.1
