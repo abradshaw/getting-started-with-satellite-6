@@ -1,5 +1,8 @@
 # Getting Started with Satellite 6
 
+>**NOTE**:
+This book was written for Satellite 6.0 only. It has NOT been updated for 6.1
+
 ## Introduction
 
 Red Hats latest version of their Lifecycle Management tool, Red Hat Satellite 6, is a big change from earlier versions
