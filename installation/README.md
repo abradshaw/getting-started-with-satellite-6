@@ -70,6 +70,13 @@ firewall-cmd --permanent --zone=public  \
  --add-service=dns --add-service=tftp
 ```
 
+As I have used ```--permanent``` above, we will have to restart the firewall for this to take effect. We use ```firewall-cmd --reload``` as it will keep the existing state information.  See the man page for more details
+
+```
+firewall-cmd  --reload 
+```
+
+
 Now run that command again.
 
 ```
@@ -83,13 +90,6 @@ public (default, active)
   forward-ports: 
   icmp-blocks: 
   rich rules: 
-```
-
-
-As I have used ```--permanent``` above, we will have to restart the firewall for this to take effect. We use ```firewall-cmd --reload``` as it will keep the existing state information.  See the man page for more details
-
-```
-firewall-cmd  --reload 
 ```
 
 

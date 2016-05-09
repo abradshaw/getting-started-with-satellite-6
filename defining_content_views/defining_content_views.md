@@ -6,6 +6,8 @@ Click on the **Content > Content Views** menu
 
 ![Content Views Menu Item](../images/menu-content-view.png)
 
+Click on **+ Create New View** menu
+
 Fill in the **Name** and **Label** fields and click **Save**
 
 On the **Content** tab, selected the repositories that you want to add to this view and click **Add Repositories**
