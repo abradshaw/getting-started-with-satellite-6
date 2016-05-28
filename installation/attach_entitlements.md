@@ -80,7 +80,7 @@ subscription-manager repos --enable rhel-6-server-rpms \
 --enable rhel-6-server-satellite-6.1-rpms
 ```
 
-### RHEL 6 Repos for Satellite 6.2 Beta and other beta versions of the product.
+### RHEL 6 Repos for Satellite 6.2 Beta and newer:
 ```
 subscription-manager repos --disable "*"
 

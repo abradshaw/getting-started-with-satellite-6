@@ -30,5 +30,8 @@ The book covers Satellite 6.0, 6.1 and the 6.2 beta. The sister book (Getting st
 
 ### Authors
 
-Adrian Bradshaw (abradsha@redhat.com)
-Calvin Hartwell (cjh@redhat.com or mail@calvinh.com)
+Adrian Bradshaw
+(abradsha@redhat.com)
+
+Calvin Hartwell
+(cjh@redhat.com)
