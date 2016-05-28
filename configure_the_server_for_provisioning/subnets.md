@@ -10,7 +10,7 @@ If you cant see it, then maybe we need to **Import Subnets** from our **Capsule*
 
 Navigate to
 
-Infrastructure > Capsules and use the pull down menu on your severs enty to **Import Subnets**
+Infrastructure > Capsules and use the pull down menu on your severs entry to **Import Subnets**
 
 ![Import Subnets](../images/capsule-import-subnets.png)
 

@@ -6,7 +6,7 @@ Start off by going to
 
 ```Configure > Host Groups```
 
-and click on **New Nost Group**
+and click on **New Host Group**
 
 Configure your **Host Group** as follows
 

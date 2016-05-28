@@ -10,7 +10,7 @@ Select your **Organisation** and scroll down until you see a list on the left of
 
 ![Troubleshoot Orgs](../images/troubleshoot-org.png)
 
-Do exacy the same from the **Manage Locations** interface
+Do exactly the same from the **Manage Locations** interface
 
 
 ![Troubleshoot Locations](../images/troubleshoot-location.png)

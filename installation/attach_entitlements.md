@@ -7,6 +7,12 @@ OK, lets get a list of whats availble to you, you are specifically looking for t
 subscription-manager list --available --all|less
 ```
 
+This will give you a quicker output if you don't want to browse each one:
+
+```
+subscription-manager list --all --available | grep Satellite -A 10
+```
+
 Search for the Satellite Subscription, as a Red Hat employee, some of the output I see is as follows, yours will look a little different
 
 ```
@@ -27,14 +33,16 @@ Ends:              01/01/22
 System Type:       Physical
 ```
 
-You are interested in
-the **Pool ID** of the subscription
+You are interested in the **Pool ID** of the subscription
 
 You can **attach** this to your server as follows
 
 ```
 subscription-manager attach --pool=aaaabbbbccccddddeeeeffffgggghhh
 ```
+
+>**NOTE**:
+If you're looking to install the Satellite 6.2 Beta or a newer version of the product, make sure you use the subscription which provides Satellite 6 Beta.
 
 >**NOTE**:
 If you get an error that reads like this
@@ -54,7 +62,7 @@ You will then be able to attach to that pool. However, depending on your entitle
 
 This may enable too many repositories. The [Satellite documentation](https://access.redhat.com/documentation/en-US/Red_Hat_Satellite/6.0/html-single/Installation_Guide/index.html#Installing_Red_Hat_Satellite) makes clear which repositories you will need, and shows how to disable the ones you dont.
 
-### RHEL 6 Repos
+### RHEL 6 Repos for Satellite 6.0
 ```
 subscription-manager repos --disable "*"
 
@@ -62,6 +70,23 @@ subscription-manager repos --enable rhel-6-server-rpms \
 --enable rhel-server-rhscl-6-rpms \
 --enable rhel-6-server-satellite-6.0-rpms
 ```
+
+### RHEL 6 Repos for Satellite 6.1
+```
+subscription-manager repos --disable "*"
+
+subscription-manager repos --enable rhel-6-server-rpms \
+--enable rhel-server-rhscl-6-rpms \
+--enable rhel-6-server-satellite-6.1-rpms
+```
+
+### RHEL 6 Repos for Satellite 6.2 Beta and other beta versions of the product.
+```
+subscription-manager repos --disable "*"
+
+subscription-manager repos --enable rhel-6-server-rpms \
+--enable rhel-server-rhscl-6-rpms \
+--enable rhel-6-server-satellite-6-beta-rpms
 
 Once done, check that you have access to **exactly** three repos
 
@@ -74,7 +99,7 @@ rhel-6-server-satellite-6.0-rpms    Red Hat Satellite 6.0 (for RHEL 6 Server) (R
 rhel-server-rhscl-6-rpms            Red Hat Software Collections RPMs for Red Hat Enterprise Linux 6 Server 1,269
 ```
 
-### RHEL 7 Repos
+### RHEL 7 Repos for Satellite 6.0  
 
 ```
 subscription-manager repos --disable "*"
@@ -82,6 +107,26 @@ subscription-manager repos --disable "*"
 subscription-manager repos --enable rhel-7-server-rpms \
 --enable rhel-server-rhscl-7-rpms \
 --enable rhel-7-server-satellite-6.0-rpms
+```
+
+### RHEL 7 Repos for Satellite 6.1
+
+```
+subscription-manager repos --disable "*"
+
+subscription-manager repos --enable rhel-7-server-rpms \
+--enable rhel-server-rhscl-7-rpms \
+--enable rhel-7-server-satellite-6.1-rpms
+```
+
+### RHEL 7 Repos for Satellite 6.2 Beta and newer versions of the product.
+
+```
+subscription-manager repos --disable "*"
+
+subscription-manager repos --enable rhel-7-server-rpms \
+--enable rhel-server-rhscl-7-rpms \
+--enable rhel-7-server-satellite-6-beta-rpms
 ```
 
 Once done, check that you have access to **exactly** three repos
@@ -97,6 +142,4 @@ rhel-server-rhscl-7-rpms/7Server/x86_64         Red Hat Software Collections RPM
 ```
 
 
-
 Once you have confirmed that you have access to exactly those three repositories, carry on to the next part.
-

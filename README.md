@@ -1,7 +1,7 @@
 # Getting Started with Satellite 6
 
 >**NOTE**:
-This book was written for Satellite 6.0 only. It has NOT been updated for 6.1
+This book was originally written for Satellite 6.0 has now been updated for Satellite 6.1 and Satellite 6.2 beta.
 
 ## Introduction
 
@@ -26,4 +26,9 @@ You are someone who is familiar with administering Linux. You will hopefully hav
 
 ### Note
 
-The book covers 6.0, some things have changed under 6.1. The sister book (Getting started with Hammer) has been updated to 6.1
+The book covers Satellite 6.0, 6.1 and the 6.2 beta. The sister book (Getting started with Hammer) has been updated to 6.1
+
+### Authors
+
+Adrian Bradshaw (abradsha@redhat.com)
+Calvin Hartwell (cjh@redhat.com or mail@calvinh.com)

@@ -11,7 +11,6 @@ In the next book in the series, Next Steps with Satellite 6, I will cover
 
 The sister book this one, Getting Started with Satellite 6 Command line is aimed to achieving the same results as this book but by using only the command line interface, called **Hammer**
 
-
 ##Other Books
 Here are details of other books I have planned.
 * Getting Started with Satellite 6 (this book)

@@ -2,6 +2,8 @@
 
 Once the manifest has been created, we simple need to import it into our Satellite server.
 
+>*NOTE*: If you added the initial-organization and initial-location options to the installer you don't need to perform these steps unless you want to create additional locations or organisations. Also note that organisations and locations can be nested such as EMEA/UK or EMEA/Spain. 
+
 However, first we must create our **Organization** and **Location**
 
 Login to the Satellite web interface and select the Manage Organisation menu item

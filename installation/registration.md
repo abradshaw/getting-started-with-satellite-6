@@ -8,6 +8,6 @@ From a command prompt type the following
 
 You will then be prompted for your credentials, enter them and the system should be correctly registered, but not attached/consuming entitlements
 
-At this point its important to logon to the Red Hat Customer Portal and set the version of Satellite to 6.0
+At this point its important to logon to the Red Hat Customer Portal and set the version of Satellite to 6.0 (or higher depending on what version you are using). 
 
 ![Select Satellite Version](../images/select-version.png)

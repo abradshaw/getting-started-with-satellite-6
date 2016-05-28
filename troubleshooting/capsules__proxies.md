@@ -1,6 +1,6 @@
 ###Capsules / Proxies
 
-If you are using DHCP / TFTP / DNS proxies, its always worth doublechecking your definitions.
+If you are using DHCP / TFTP / DNS proxies, its always worth double-checking your definitions.
 
 ####Subnet
 Go to you **Subnet** definition (Infrastructure > Subnets), and make sure that the **Capsules** page has the correct entries on it.

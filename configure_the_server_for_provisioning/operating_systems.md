@@ -6,7 +6,7 @@ Next we configure the **Operating Systems**. As my Satellite is running RHEL 6.5
 
 On the first tab, ensure that the **Architectures** entry has **x86_64** ticked
 
-On the **Partion Table** make sure that **Kickstart Default** is ticked
+On the **Partition Table** make sure that **Kickstart Default** is ticked
 
 
 On the **Templates** tab, select the provisioning templates I mentioned earlier

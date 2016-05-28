@@ -65,8 +65,8 @@ Of course this is not what we require, so lets add in all the ports we require i
 
 
 ```
-firewall-cmd --permanent --zone=public  \ 
- --add-service=RH-Satellite-6 --add-service=dhcp \ 
+firewall-cmd --permanent --zone=public  \
+ --add-service=RH-Satellite-6 --add-service=dhcp \
  --add-service=dns --add-service=tftp
 ```
 
@@ -76,21 +76,27 @@ Now run that command again.
 firewall-cmd --zone=public --list-all
 public (default, active)
   interfaces: eth0
-  sources: 
+  sources:
   services: RH-Satellite-6 dhcp dhcpv6-client dns ssh tftp
-  ports: 
+  ports:
   masquerade: no
-  forward-ports: 
-  icmp-blocks: 
-  rich rules: 
+  forward-ports:
+  icmp-blocks:
+  rich rules:
 ```
 
 
 As I have used ```--permanent``` above, we will have to restart the firewall for this to take effect. We use ```firewall-cmd --reload``` as it will keep the existing state information.  See the man page for more details
 
 ```
-firewall-cmd  --reload 
+firewall-cmd  --reload
 ```
 
 
-More information on what each of these ports are for can be found  in [Installation Guide Prerequisites](https://access.redhat.com/documentation/en-US/Red_Hat_Satellite/6.0/html-single/Installation_Guide/index.html#Prerequisites3)
+More information on what each of these ports are for can be found here (Satellite 6.0): [Installation Guide Prerequisites](https://access.redhat.com/documentation/en-US/Red_Hat_Satellite/6.0/html-single/Installation_Guide/index.html#Prerequisites3)
+
+
+More information on what each of these ports are for can be found here (Satellite 6.1): [Installation Guide Prerequisites](https://access.redhat.com/documentation/en-US/Red_Hat_Satellite/6.1/html-single/Installation_Guide/index.html#sect-Red_Hat_Satellite-Installation_Guide-Prerequisites-Base_Operating_System)
+
+
+More information on what each of these ports are for can be found here (Satellite 6.2 Beta - Section 2.4): [Installation Guide Prerequisites](https://access.redhat.com/documentation/en/red-hat-satellite/6.2-beta/installation-guide/chapter-2-preparing-your-environment-for-installation)

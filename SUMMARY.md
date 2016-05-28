@@ -12,7 +12,7 @@
    * [Prepare for Manifest Import](initial_configuration,_adding_red_repos/prepare_for_manifest_import.md)
    * [Importing the Manifest](initial_configuration,_adding_red_repos/importing_the_manifest.md)
    * [Adding Red Hat Repositories](initial_configuration,_adding_red_repos/adding_red_hat_repositories.md)
-   * [Syncronising Repositories](initial_configuration,_adding_red_repos/syncronising_repositories.md)
+   * [Synchronising Repositories](initial_configuration,_adding_red_repos/syncronising_repositories.md)
 * [Lifecycle Environments](lifecycle_environments/README.md)
 * [Content Views](defining_content_views/README.md)
    * [Defining Content Views](defining_content_views/defining_content_views.md)
@@ -33,4 +33,3 @@
    * [Capsules / Proxies](troubleshooting/capsules__proxies.md)
    * [Tasks](troubleshooting/tasks.md)
 * [Next Steps](beyond_basics/README.md)
-

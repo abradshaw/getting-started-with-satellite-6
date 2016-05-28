@@ -8,7 +8,6 @@ The left side of your menu bar should look like this
 
 ![Organisation and Location](../images/org-loc.png)
 
-
 Select **Red Hat Subscriptions** from the **Content** menu
 
 ![Organisation and Location](../images/red-hat-subscriptions.png)
@@ -17,4 +16,4 @@ Use the **Browse** and **Upload** buttons to locate and upload the manifest you 
 
 ![Organisation and Location](../images/manifest-browse-upload.png)
 
-Once that has imported successfully, you can proceed to selecting the Red Hat Repositories you wish to syncronise
+Once that has imported successfully, you can proceed to selecting the Red Hat Repositories you wish to synchronise.
