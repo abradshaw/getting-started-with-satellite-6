@@ -1,7 +1,7 @@
 # Getting Started with Satellite 6
 
 >**NOTE**:
-This book was originally written for Satellite 6.0 has now been updated for Satellite 6.1 and Satellite 6.2 beta.
+This book was originally written for Satellite 6.0 but has now been updated for Satellite 6.1 and Satellite 6.2 beta.
 
 ## Introduction
 
