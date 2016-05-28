@@ -20,9 +20,9 @@ After a few seconds a screen like this should appear
 
 Now power on the host to be provisioned.
 
-The build should progress in these distint stages
+The build should progress in these distinct stages
 
-The initial Amaconda package install stage
+The initial Anaconda package install stage
 
 ![](../images/host-stage-anaconda.png)
 
